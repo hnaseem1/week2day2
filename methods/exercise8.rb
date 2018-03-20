@@ -48,9 +48,6 @@ speed1 = speed(distance1, time1)
 speed2 = speed(distance2, time2)
 speed3 = speed(distance3, time3)
 
-
-
-
 # secs2 = mins2 * 60
 # speed2 = distance2/secs2
 # secs3 = mins3 * 60
