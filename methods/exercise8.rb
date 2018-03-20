@@ -43,7 +43,7 @@ time3 = time(distance3, "person 3")
 
 speed1 = speed(distance1, time1)
 speed2 = speed(distance2, time2)
-speed3 = speed(distance1, time1)
+speed3 = speed(distance3, time3)
 
 
 
