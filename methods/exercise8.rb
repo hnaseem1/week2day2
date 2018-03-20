@@ -31,6 +31,9 @@ def speed(distance, time)
   speed = distance/secs
 end
 
+def output(person, speed)
+  puts "#{person} was the fastest at #{speed} m/s"
+end
 
 distance1 = distance("person 1")
 time1 = time(distance1, "person 1")
@@ -54,11 +57,14 @@ speed3 = speed(distance3, time3)
 # speed3 = distance3/secs3
 
 if speed3 > speed2 && speed3 > speed1
-  puts "Person 3 was the fastest at #{speed3} m/s"
+  # puts "Person 3 was the fastest at #{speed3} m/s"
+  output("Person 3", speed3)
 elsif speed2 > speed3 && speed2 > speed1
-  puts "Person 2 was the fastest at #{speed2} m/s"
+  # puts "Person 2 was the fastest at #{speed2} m/s"
+  output("Person 2", speed2)
 elsif speed1 > speed3 && speed1 > speed2
-  puts "Person 1 was the fastest at #{speed1} m/s"
+  # puts "Person 1 was the fastest at #{speed1} m/s"
+  output("Person 1", speed1)
 elsif speed1 == speed2 && speed2 == speed3
   puts "Everyone tied at #{speed1} m/s"
 else
